@@ -57,20 +57,20 @@ export const dataNavigation = [
 
 export const dataIcons = [
   {
-    icon: <SiGithub size={60} />,
+    icon: <SiGithub size={50} />,
     url: 'https://github.com/vitorSilva95',
   },
 
   {
-    icon: <SiWhatsapp size={60} />,
+    icon: <SiWhatsapp size={50} />,
     url: 'https://web.whatsapp.com/send?phone=5531999325928"',
   },
   {
-    icon: <SiLinkedin size={60} />,
+    icon: <SiLinkedin size={50} />,
     url: 'https://www.linkedin.com/in/vitor-oliveira-silva-dev/',
   },
   {
-    icon: <AiOutlineMail size={60} />,
+    icon: <AiOutlineMail size={50} />,
     url: 'vitor.o.silva95@gmail.com',
   },
 ];

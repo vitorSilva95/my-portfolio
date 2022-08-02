@@ -45,6 +45,7 @@ export const Link = styled.a`
 
 export const P = styled.p`
   font-size:15px;
+  margin:20px;
   color:black;
   display:flex;
   justify-content:center;
