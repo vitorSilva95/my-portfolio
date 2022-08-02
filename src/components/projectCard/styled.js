@@ -5,7 +5,8 @@ export const ContainerCard = styled.div`
   flex-direction:column;
   text-align:center;
   align-items:center;
-  border: 2px solid black; 
+  border: 2px solid black;
+  padding:5px;
   margin:20px;
   font-size: max(13px, 1vw);
   box-shadow: inset 0 0 1em #120c56, 0 0 1em black;

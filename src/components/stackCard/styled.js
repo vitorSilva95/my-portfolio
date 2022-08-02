@@ -17,6 +17,14 @@ export const CardContainer = styled.div`
       }
     }
 
+    div {
+      font-size:max(30px,2.4vw);
+    }
+
+    h5 {
+      font-size:max(13px,0.74vw);
+    }
+
     span {
       width: 100%;
       height: 3px;

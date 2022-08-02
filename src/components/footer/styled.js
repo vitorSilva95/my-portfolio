@@ -27,7 +27,7 @@ export const ContainerFooter = styled.footer`
     li {
       text-align:center;
       list-style: none;
-      padding:10px 50px;
+      margin:20px;
     }
 `;
 
@@ -41,6 +41,7 @@ export const Link = styled.a`
   text-decoration:none;
   cursor:pointer;
   color:white;
+  font-size:max(25px,2.4vw );
 `;
 
 export const P = styled.p`
