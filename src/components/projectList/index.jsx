@@ -8,7 +8,7 @@ export function ProjectCardList() {
   const [visible, setPixelsValue] = useScroll();
 
   useEffect(() => {
-    setPixelsValue(500);
+    setPixelsValue(287);
   });
 
   return (

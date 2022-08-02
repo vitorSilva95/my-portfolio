@@ -8,7 +8,7 @@ export const About = () => {
   const [visible, setPixelsValue] = useScroll();
 
   useEffect(() => {
-    setPixelsValue(2100);
+    setPixelsValue(1900);
   });
 
   return (
