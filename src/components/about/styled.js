@@ -28,7 +28,7 @@ export const ContainerAbout = styled.div`
 
     p {
       padding:10px;
-      font-size: max(13px, 1.2vw);
+      font-size: max(13px, 1vw);
     }
 
     div {
