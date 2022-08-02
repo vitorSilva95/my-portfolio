@@ -6,7 +6,8 @@ export const ContainerCard = styled.div`
   text-align:center;
   align-items:center;
   border: 2px solid black; 
-  font-size: max(17px, 1vw);
+  margin:20px;
+  font-size: max(13px, 1vw);
   box-shadow: inset 0 0 1em #120c56, 0 0 1em black;
     &:hover{
       transform:scale(1.05,1.05);
@@ -15,6 +16,7 @@ export const ContainerCard = styled.div`
 
     h3 {
       border-bottom:2px solid #120c56;
+      font-size: max(15px, 1.2vw);
       width:93.5%;
       padding:20px;;
       margin:0;
@@ -35,10 +37,10 @@ export const Link = styled.a`
   text-decoration:none;
   display:flex;
   background-color:white;
-  width:200px;
+  width:max(80px,7vw);
   border-radius:40px;
-  height:50px;
-  font-size:20px;
+  height:max(30px,4vh);
+  font-size:max(10px,1vw);
   justify-content:center;
   align-items:center;
   margin-bottom:20px;

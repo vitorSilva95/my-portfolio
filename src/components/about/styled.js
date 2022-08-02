@@ -27,6 +27,10 @@ export const ContainerAbout = styled.div`
       border-radius: 50px;
     }
 
+    p {
+      padding:10px;
+    }
+
     div {
       width:60%;
 

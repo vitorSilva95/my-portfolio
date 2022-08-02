@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 export const ContainerCards = styled.div`
   display:grid;
-  grid-gap: 20px;
+  grid-gap: 30px;
   grid-template-columns:repeat(auto-fill, minmax(300px, 500px));
   place-content:center;
   visibility: ${(props) => (props.visible ? 'visible' : 'hidden')};

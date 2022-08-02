@@ -7,7 +7,7 @@ export const Container = styled.div`
   height: 100vh;
   
     p {
-      font-size: max(20px, 1.5vw);
+      font-size: max(17px, 1.5vw);
       border-right: 2px solid white;
       text-align:center;
       animation: blinkCursor 700ms infinite normal, typing 4s steps(25) 1s normal both;

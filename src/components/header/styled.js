@@ -8,42 +8,26 @@ export const HeaderContainer = styled.header`
   flex-direction:column;
   align-items:center;
   justify-content:center;
-  z-index:2;
-`;
-
-export const Title = styled.h1`
-  color:white;
-
-    span {
-        animation: animate 1.5s linear infinite;
-      }
-
-    @keyframes animate {
-        0% {
-          opacity: 0;
-        }
-        50% {
-          opacity: 0.7;
-        }
-        100% {
-          opacity: 0;
-        }
-      }
+  z-index:10;
+    h1 {
+      margin:20px;
+      padding-bottom:20px;
+    }
 `;
 
 export const OlNav = styled.ol`
   display:flex;
-  padding:10px;
-  width:max(400px, 600px);
-  justify-content:space-between;
+  width:min(100%,1000px);
+  justify-content:space-around;
   flex-wrap:wrap;
   font-size: max(12px, 1vw);
 
     li {
-      width:250px;
+      width:80px;
       height:50px;
+      text-align:center;
       list-style-type: none;
-      padding:0 30px;
+      margin-bottom:10px;
     }
 `;
 

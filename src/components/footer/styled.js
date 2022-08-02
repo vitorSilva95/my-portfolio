@@ -8,6 +8,9 @@ export const Div = styled.div`
   align-items:center;
   margin-top:300px;
   width:100%;
+    h5 {
+      padding:30px;
+    }
 `;
 
 export const ContainerFooter = styled.footer`
