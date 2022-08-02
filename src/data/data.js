@@ -50,7 +50,7 @@ export const dataProjects = [
 
 export const dataNavigation = [
   { name: 'Inicio', href: '#welcome' },
-  { name: 'Projetos', href: '#projetos' },
+  { name: 'Projetos', href: '#projects' },
   { name: 'Sobre/Stacks', href: '#about' },
   { name: 'Contato', href: '#contact' },
 ];
