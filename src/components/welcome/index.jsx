@@ -18,7 +18,7 @@ export function Welcome() {
   return (
     <>
       <Container id="welcome">
-        <p>{`Olá , seja Bem vindo ao meu portifolio! =)`}</p>
+        <p>{`Olá , seja Bem vindo ao meu portfólio! =)`}</p>
         {visibleLink && (
           <Link href="#projects" className="animate__animated animate__fadeIn">
             Saiba mais
