@@ -20,7 +20,6 @@ export const ContainerAbout = styled.div`
   align-items:center;
   width:70%;
   box-shadow: inset 0 0 1em #120c56, 0 0 1em black;
-  font-size: max(17px, 1vw);
     img {
       width:max(200px, 20%);
       padding:20px;
@@ -29,6 +28,7 @@ export const ContainerAbout = styled.div`
 
     p {
       padding:10px;
+      font-size: max(13px, 1.2vw);
     }
 
     div {
@@ -40,6 +40,9 @@ export const ContainerAbout = styled.div`
     }
     @media(max-width: 1200px) {
       flex-direction: column;
+    }
+    @media(max-width: 501px) {
+      width:100%;
     }
 `;
 
