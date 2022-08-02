@@ -19,6 +19,7 @@ export const ContainerAbout = styled.div`
   justify-content:center;
   align-items:center;
   width:70%;
+  padding:30px 0;
   box-shadow: inset 0 0 1em #120c56, 0 0 1em black;
     img {
       width:max(200px, 20%);
