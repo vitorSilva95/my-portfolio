@@ -12,9 +12,8 @@ export function ProjectCardList() {
   });
 
   return (
-    <div>
+    <div id="projects">
       <Title>PROJETOS</Title>
-
       <ContainerCards visible={visible}>
         {dataProjects.map(({ id, title, url, about, linkGitHub }) => (
           <ProjectCard
@@ -26,9 +25,6 @@ export function ProjectCardList() {
           />
         ))}
       </ContainerCards>
-      <div id="about" style={{ visibility: 'hidden' }}>
-        about ref
-      </div>
     </div>
   );
 }

@@ -1,4 +1,4 @@
-import { HeaderContainer, Link, OlNav, Title } from './styled';
+import { HeaderContainer, Link, OlNav } from './styled';
 import { useScroll } from '../../utils/handleScroll';
 import { useEffect } from 'react';
 import { dataNavigation } from '../../data/data';
@@ -12,13 +12,13 @@ export function Header() {
 
   return (
     <HeaderContainer>
-      <Title>VITOR SILVA .</Title>
+      <h1>VITOR SILVA .</h1>
       {visible && (
         <OlNav>
           {dataNavigation.map(({ name, href }) => (
-            <Link key={name} href={href}>
-              {name}
-            </Link>
+            <li key={name}>
+              <Link href={href}>{name}</Link>
+            </li>
           ))}
         </OlNav>
       )}

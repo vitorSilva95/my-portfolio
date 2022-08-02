@@ -20,14 +20,11 @@ export function Welcome() {
       <Container id="welcome">
         <p>{`Olá , seja Bem vindo ao meu portifolio! =)`}</p>
         {visibleLink && (
-          <Link href="#projetos" className="animate__animated animate__fadeIn">
+          <Link href="#projects" className="animate__animated animate__fadeIn">
             Saiba mais
           </Link>
         )}
       </Container>
-      <div id="projetos" style={{ visibility: 'hidden' }}>
-        projects ref
-      </div>
     </>
   );
 }

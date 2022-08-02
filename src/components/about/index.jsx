@@ -12,7 +12,7 @@ export const About = () => {
   });
 
   return (
-    <div>
+    <div id="about">
       <Title>SOBRE</Title>
       <Div visible={visible}>
         <ContainerAbout>
