@@ -37,7 +37,9 @@ export const Footer = () => {
       </ContainerFooter>
       <P isCopied={isCopied}>E-mail Copiado</P>
       <h5>
-        <HiOutlineLocationMarker size={40} />
+        <span>
+          <HiOutlineLocationMarker />
+        </span>
         Betim , Minas Gerais
       </h5>
       <h5>©2021</h5>

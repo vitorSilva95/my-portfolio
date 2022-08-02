@@ -6,10 +6,14 @@ export const Div = styled.div`
   flex-wrap:wrap;
   flex-direction:column;
   align-items:center;
-  margin-top:300px;
+  margin-top:200px;
   width:100%;
     h5 {
-      padding:30px;
+      padding:20px;
+      font-size:max(13px,0.74vw);
+        span {
+          font-size:max(25px, 1.7vw);
+        }
     }
 `;
 
@@ -27,14 +31,14 @@ export const ContainerFooter = styled.footer`
     li {
       text-align:center;
       list-style: none;
-      margin:20px;
+      padding:0 20px;
     }
 `;
 
 export const Title = styled.h1`
   text-align:center;
-  margin-bottom:100px;
-  margin-top:100px;
+  padding:20px;
+  margin:30px 50px 80px 50px;;
 `;
 
 export const Link = styled.a`
@@ -45,16 +49,15 @@ export const Link = styled.a`
 `;
 
 export const P = styled.p`
-  font-size:15px;
-  margin:20px;
+  font-size:max(10px, 0.8vw);
+  padding:12px;
   color:black;
   display:flex;
   justify-content:center;
   align-items:center;
   background: white;
-	border-radius: 15px;
-	width: 200px;
-	height: 50px;
+	border-radius: 10px;
 	position: relative;
+  margin:20px;
   visibility: ${(props) => (props.isCopied ? 'visible' : 'hidden')};
 `;

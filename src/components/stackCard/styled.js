@@ -26,6 +26,7 @@ export const CardContainer = styled.div`
     }
 
     span {
+      margin-top:5px;
       width: 100%;
       height: 3px;
     }
